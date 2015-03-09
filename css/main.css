@@ -9,15 +9,26 @@ body {
 }
 
 .parallax-window {
-    min-height: 400px;
+    min-height: 40px;
     background: transparent;
 }
 
+.jumbotron {
+  background-color: transparent !important;
+  margin-bottom: 0px;
+}
+.jumbotron h1{
+	color: #fff;
+}
+.contenedor-tabs{
+	padding-top: 0px!important;
+}
 
-
-
-
-
+.texto-prueba{
+	color: black;
+	font-size: 14px;
+	text-align: justify;
+}
 
 
 
