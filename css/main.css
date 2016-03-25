@@ -1,13 +1,18 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+  Michelle Navia Z.
    ========================================================================== */
 
+.logo-principal{
+ 	align:center !important;
+}
 
 
-
-
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
 
 
 
