@@ -1,27 +1,43 @@
 
 
 /* ==========================================================================
-  Michelle Navia Z.
+   Author's custom styles
    ========================================================================== */
-
-.logo-principal{
- 	align:center !important;
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
-
 .parallax-window {
-    min-height: 400px;
+    min-height: 30px;
     background: transparent;
 }
 
+.jumbotron {
+  background-color: transparent !important;
+  margin-bottom: 0px;
+  padding: 26px;
+}
+.jumbotron h1{
+	color: #fff;
+}
+.contenedor-tabs{
+	padding-top: 0px!important;
+}
 
+.texto-prueba p{
+	color: black;
+	font-size: 14px;
+	text-align: justify;
+}
 
+.imagen-inicio img{
+width: 300px;
+}
 
-
-
-
-
-
+.section-bar-1{
+	background-color: red;
+}
 
 
 
