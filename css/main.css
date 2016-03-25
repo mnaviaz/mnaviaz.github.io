@@ -3,41 +3,36 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: "QuinchoScript_PersonalUse";
+    src: url(../fonts/Lobster.otf);
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
 .parallax-window {
-    min-height: 30px;
+    min-height: 100px;
     background: transparent;
+    height: 300px;
 }
-
+.parallax-window h1{
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
 .jumbotron {
-  background-color: transparent !important;
-  margin-bottom: 0px;
-  padding: 26px;
-}
-.jumbotron h1{
-	color: #fff;
-}
-.contenedor-tabs{
-	padding-top: 0px!important;
-}
+    background-color:none!important;}
 
-.texto-prueba p{
-	color: black;
-	font-size: 14px;
-	text-align: justify;
+.primer-fondo{
+	background-color:#993D73;
 }
+.primer-fondo h2{
+	text-align: right !important;
+	color:#fff;
+	font-family: "QuinchoScript_PersonalUse"; 
+	font-size: 60px;	
+	text-shadow: 3px 3px #303030, 0 0 5px #6B6B6B;
 
-.imagen-inicio img{
-width: 300px;
 }
-
-.section-bar-1{
-	background-color: red;
-}
-
-
-
