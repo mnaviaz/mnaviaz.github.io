@@ -5,7 +5,7 @@
    ========================================================================== */
 @font-face {
     font-family: "QuinchoScript_PersonalUse";
-    src: url(../fonts/Lobster.otf);
+    src: url(../fonts/modern.ttf);
 }
 
 body {
@@ -19,6 +19,7 @@ body {
     height: 300px;
 }
 .parallax-window h1{
+	margin-top: 40px;
 	text-align: center;
 	text-shadow: 2px 2px #ff0000;
 }
@@ -26,13 +27,25 @@ body {
     background-color:none!important;}
 
 .primer-fondo{
-	background-color:#993D73;
+	background-color:#000;
+	box-shadow: -webkit-box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
+-moz-box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
+box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
 }
 .primer-fondo h2{
-	text-align: right !important;
+	text-align: center;
+	margin-top: 40px;
 	color:#fff;
 	font-family: "QuinchoScript_PersonalUse"; 
-	font-size: 60px;	
+	font-size: 40px;	
 	text-shadow: 3px 3px #303030, 0 0 5px #6B6B6B;
 
+}
+.interpretacion-img{
+	text-align: center;
+}
+.interpretacion-img img{
+	width: 40%;
+	align-content: center;
+	margin-bottom: 20px;
 }
