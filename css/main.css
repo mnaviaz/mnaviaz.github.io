@@ -13,6 +13,27 @@ body {
     padding-bottom: 20px;
 }
 
+.botones-menu .button--round-s{
+	border:none;
+	border-radius: none;
+	font-size: 18px;
+	padding: 5px;
+	font-family: "QuinchoScript_PersonalUse"
+	background-color:#fff;
+
+}
+
+.botones-menu .button--wayra:hover::before{
+	border-radius: none!important;
+	background-color:#fff;
+	color: #000;	
+}
+
+.button--round-s {
+    border-radius: 0px;
+    padding: 10px !important;
+    margin: 0px;
+}
 .parallax-window {
     min-height: 100px;
     background: transparent;
@@ -45,7 +66,45 @@ box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
 	text-align: center;
 }
 .interpretacion-img img{
-	width: 40%;
+	width: 30%;
 	align-content: center;
 	margin-bottom: 20px;
+}
+.boton-navegacion{
+	text-align: center;
+	margin-top: 40px;
+}
+.boton-flecha {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+  	text-decoration: none;
+  	padding: 20px;
+  	color:#000;
+  	font-size: 20px;
+  	text-align: center;
+
+}
+
+.boton-flecha:hover {
+  background: #898989;
+  background-image: -webkit-linear-gradient(top, #898989, #4C4C4C);
+  background-image: -moz-linear-gradient(top, #898989, #4C4C4C);
+  background-image: -ms-linear-gradient(top, #898989, #4C4C4C);
+  background-image: -o-linear-gradient(top, #898989, #4C4C4C);
+  background-image: linear-gradient(to bottom, #898989, #4C4C4C);
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.mi-foto img{
+	width: 400px;
+	position: absolute;
+	top: 1;
+	left:0;
+	z-index: -1
 }
