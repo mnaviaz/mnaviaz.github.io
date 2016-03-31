@@ -100,3 +100,58 @@ box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
   text-decoration: none;
   color: #fff;
 }
+
+.caja1{
+  border-right: 5px solid #fff;
+  text-align: right;
+  position: relative;
+  margin-top: 50px;
+}
+
+.caja1:before {
+  content: '';
+  position: absolute;
+  top:7%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  right: 0;
+  border-radius: 50%;  
+  box-shadow: 0 0 0 8px #afdcf8;  
+  text-align: center; 
+  left: 97%; 
+}
+
+.caja1 h2 {
+  color: #000;
+  border-bottom: 2px solid #fff;
+}
+
+.circulo-caja:before{
+  width: 40px;
+  height: 40px;
+  font-family: 'ecoico';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 1.4em;
+  line-height: 40px;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  color: #fff;
+  background: #46a4da;
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px #afdcf8;
+  text-align: center;
+  left: 20%;
+  top: 0;
+  margin: 0 0 0 -25px;}
+
+.caja-info{
+  background-color: red;
+  padding: 8px;
+  text-align: justify;
+  border-radius: 5%;
+}
