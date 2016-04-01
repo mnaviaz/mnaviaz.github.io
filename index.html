@@ -13,9 +13,9 @@
 				<link rel="stylesheet" href="css/bootstrap.min.css">
 				<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 				<link rel="shortcut icon" href="../favicon.ico">
-				<link rel="stylesheet" type="text/css" href="css/normalize.css" />   
-        <link rel="stylesheet" type="text/css" href="css/buttons.css" />   
+				<link rel="stylesheet" type="text/css" href="css/normalize.css" />     
 				<link rel="stylesheet" href="css/main.css">
+				<link rel="stylesheet" href="css/component1.css">				
 				<script src="js/modernizr.custom.js"></script>  
 				<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 		</head>
@@ -23,58 +23,49 @@
 				<!--[if lt IE 11]>
 						<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://brwsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 				<![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <!--  <a class="navbar-brand" href="#">Michelle Navia Z</a> -->
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">       
-         <div class="box bg-2 botones-menu">
-          <button class="button button--wayra button--border-thin button--round-s"><a href="#inicio">Inicio</i></a></button>
-          <button class="button button--wayra button--border-thin button--round-s"><a href="acerca-de-mi">Acerca de mi</a></button>
-          <button class="button button--wayra button--border-thin button--round-s"><a href=""></a></button>
-        </div>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<section class="color-1">
+				<nav class="cl-effect-1">
+					<a href="#inicio">Inicio</a>
+					<a href="#curriculum">Curriculum Vitae</a>
+					<a href="#">Trabajos</a>
+					<a href="#">Contacto</a>
 
-		<!-- Main jumbotron for a primary marketing message or call to action <-->
-    <section>
-      <div class="parallax-window" data-speed="0.1" data-parallax="scroll" data-image-src="img/guitarra.jpg">
-            <div class="container">
-              <h1><img src="img/logo.png" alt=""></h1>
-            </div>
-      </div>       
-    </section>
-    <section>
-      <div class="container-fluid primer-fondo" id="inicio">
-
-          <div class="col-lg-4">
-            <h2>Ideas</h2>
-            <div class="interpretacion-img"><img src="img/idea.png" alt=""></div> 
-          </div>
-            <div class="col-lg-4">
-            <h2>Interpretación</h2>
-            <div class="interpretacion-img"><img src="img/interpretacion.png" alt=""></div>            
-          </div>
-            <div class="col-lg-4">
-            <h2>Publicidad</h2>
-            <div class="interpretacion-img"><img src="img/megafono.png" alt=""></div>               
-          </div>      
-
+				</nav>
+			</section>
+		</div>
+	</nav>
+<!-------------- INICIO ------------>
+	<section id="inicio">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 parte-logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="col-lg-6 presentacion">
+					<img src="img/mifoto.png" alt="">
+					<p class="nombre">Michelle Carolina Navia Zúñiga</p>
+					<img class="franja" src="img/franja.png" alt="">
+					<p>Publicista UdeSantiago - Creativa</p>
+				</div>				
+			</div>
+		</div>
         <div class="col-lg-12 boton-navegacion">
-          <a class="boton-flecha"cla href=""><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a> 
-        </div>
-      </div>      
-    </section>
-    <section>
-      <div class="parallax-window" data-speed="0.1" data-parallax="scroll" data-image-src="img/bateria.jpg">
+          <a class="boton-flecha"cla href="#curriculum"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a> 
+        </div>		
+	</section>
+<!-------------- CURRICULUM VITAE ------------>
+	<section id="curriculum">
+		<div class="parallax-window" data-speed="0.1" data-parallax="scroll" data-image-src="img/guitarra.jpg">
             <div class="container">
 	            <div class="caja1 col-lg-6">
 
@@ -84,19 +75,14 @@
             			<div class="col-lg-7 col-lg-offset-5 caja-info">
             				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
             			</div>
-	            	
 	            </div>
-            </div>
-      </div>         
-    </section>
-      
-
-
-
-
+            </div>			
+		</div>	
+	</section>
 
 
 				<script src="js/cbpFWTabs.js"></script>
+				<script src="js/demo-1.js"></script>				
 				<script>
 					(function() {
 

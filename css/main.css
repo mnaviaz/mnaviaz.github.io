@@ -1,40 +1,86 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   Michelle Navia Zúñiga
    ========================================================================== */
 @font-face {
-    font-family: "QuinchoScript_PersonalUse";
+    font-family: "modern";
     src: url(../fonts/modern.ttf);
 }
 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: #000;
-}
-
-.botones-menu .button--round-s{
-	border:none;
-	border-radius: none;
-	font-size: 18px;
-	padding: 5px;
-	font-family: "QuinchoScript_PersonalUse"
-	background-color:#fff;
 
 }
 
-.botones-menu .button--wayra:hover::before{
-	border-radius: none!important;
-	background-color:#fff;
-	color: #000;	
+.navbar-inverse{
+  background-color: #000 !important;
+  background-image: none !important;
+  box-shadow: -webkit-box-shadow: 10px 10px 19px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 19px -10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 19px -10px rgba(0,0,0,0.75);
+} 
+nav a {
+  position: relative;
+  display: inline-block;
+  margin: 1% 4.5%;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 1.00em;
+  text-decoration: none !important;
 }
 
-.button--round-s {
-    border-radius: 0px;
-    padding: 10px !important;
-    margin: 0px;
+nav a:hover,
+nav a:focus {
+  outline: none;
+  color:#737373;
 }
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+  color:#fff;
+}
+
+.cl-effect-1 a::before {
+  margin-right: 10px;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+  color:#fff;  
+}
+
+.cl-effect-1 a::after {
+  margin-left: 10px;
+  content: ']';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+  color:#fff;
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+
 .parallax-window {
     min-height: 100px;
     background: transparent;
@@ -48,32 +94,55 @@ body {
 .jumbotron {
     background-color:none!important;}
 
-.primer-fondo{
-	background-color:#000;
-	box-shadow: -webkit-box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
--moz-box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
-box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
+.parte-logo{
+  background-image: url("../img/bateria.png");
 }
-.primer-fondo h2{
-	text-align: center;
-	margin-top: 70px;
-	color:#fff;
-	font-family: "QuinchoScript_PersonalUse"; 
-	font-size: 40px;	
-	text-shadow: 3px 3px #303030, 0 0 5px #6B6B6B;
+.parte-logo img{
+  margin-top: 50%;
+  margin-bottom: 25.2%;
+}
+.presentacion{
+  background-color: #000;
+}
+
+.presentacion img{
+  /* cambia estos dos valores para definir el tamaño de tu círculo */
+  height: 40%;
+  width: 40%;
+  /* los siguientes valores son independientes del tamaño del círculo */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+
+.presentacion .nombre{
+  text-align: center;
+  color: #fff;
+  font-size: 23px;
+  padding-top: 5%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: "modern"; 
+}
+
+.presentacion .franja{
+  text-align:center;
+  padding: 0 0 0 0 ;
+  margin-top: -16px;
 
 }
-.interpretacion-img{
-	text-align: center;
-}
-.interpretacion-img img{
-	width: 30%;
-	align-content: center;
-	margin-bottom: 20px;
+.presentacion p{
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 27.7%;
 }
 .boton-navegacion{
 	text-align: center;
-	margin-top: 40px;
+	margin-top: -20px;
 }
 .boton-flecha {
     width: 100px;
@@ -92,11 +161,6 @@ box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
 
 .boton-flecha:hover {
   background: #898989;
-  background-image: -webkit-linear-gradient(top, #898989, #4C4C4C);
-  background-image: -moz-linear-gradient(top, #898989, #4C4C4C);
-  background-image: -ms-linear-gradient(top, #898989, #4C4C4C);
-  background-image: -o-linear-gradient(top, #898989, #4C4C4C);
-  background-image: linear-gradient(to bottom, #898989, #4C4C4C);
   text-decoration: none;
   color: #fff;
 }
@@ -127,27 +191,6 @@ box-shadow: 1px 5px 39px 4px rgba(0,0,0,0.57);
   border-bottom: 2px solid #fff;
 }
 
-.circulo-caja:before{
-  width: 40px;
-  height: 40px;
-  font-family: 'ecoico';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  font-size: 1.4em;
-  line-height: 40px;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  color: #fff;
-  background: #46a4da;
-  border-radius: 50%;
-  box-shadow: 0 0 0 8px #afdcf8;
-  text-align: center;
-  left: 20%;
-  top: 0;
-  margin: 0 0 0 -25px;}
 
 .caja-info{
   background-color: red;
