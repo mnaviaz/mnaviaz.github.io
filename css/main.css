@@ -1,22 +1,94 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   Michelle Navia
    ========================================================================== */
 
 
+@font-face {
+    font-family: "RainbowMansion";
+    src: url(../fonts/RainbowMansion-lf.ttf) format("truetype");
+}
 
+.menu-principal{
+	background-color:transparent;
+	height: 10%; 
+	background-image: none!important;
+	border-bottom: none;
+	text-align: right!important;
+}
+.menu-principal a{
+	text-decoration: none;
+		text-align: right!important;
+}
+.menu {
+	float: right!important;	
+}
+.jumbotron{
+	background-image: url("../img/portada.jpg");
+	background-color: transparent;
+	padding-bottom: 300px;
+	margin-top: -10%;
+	margin-bottom: 5%;
+-webkit-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
 
+}
+.titulo-principal{
+	text-align: center;
+	margin-top: 20%;
+	color: #fff!important;
+	font-family: "RainbowMansion";
+	font-size: 20px;
+}
 
+.titulo-principal-2{
+	text-align: center;
+	color: #fff;
+}
 
+h2{
+	    font-family: "RainbowMansion";
+}
 
+.icon-comunicacion img{
+	width: 50%;
+	margin-left: 25%;
 
+}
+.competencias{
+	margin-bottom: 10%;
+}
+.competencias h2{
+	text-align: center;
+}
+.competencias p{
+	text-align: justify;
+}
 
+.acerca-de-mi{
+	background-color:#ce3350; 
+	color:#dadada;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
 
+.acerca-de-mi h2{
+	margin-left: 2%;
+	color: #fff;
+}
+.acerca-de-mi img{
+     width: 100%;
+     height: 100%;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;	
+-webkit-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);     
+}
 
-
-
-
-
-
-
+strong{
+	color:#fff;
+}

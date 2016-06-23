@@ -12,6 +12,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/component.css">        
         <style>
             body {
                 padding-top: 50px;
@@ -27,7 +28,7 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top menu-principal" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -36,63 +37,111 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
+		<nav class="menu menu--shylock">
+			<ul class="menu__list">
+				<li class="menu__item menu__item--current">
+					<a class="menu__link" href="#">Home</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Portfolio</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Blog</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Shop</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
       </div>
     </nav>
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <div class="container portada">
+        <h1 class="titulo-principal">Michelle Navia</h1>
+        <p class="titulo-principal-2">Publicista Creativa</p>
       </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
+      <div class="row competencias">
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <span class="icon-comunicacion"><img src="img/icono-comunicacion.png" alt=""></span>
+          <h2>Comunicación Interna</h2>
+          <p>Me gusta el desarrollo de las comunicaciones internas de una empresa a favor de formar y mantener buenas relaciones entre los clientes internos para con la institución. Todo esto tiene la finalidad de crear buenos entornos laborales que logren una fidelización del trabajador con su empresa.</p>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        	<span class="icon-comunicacion"><img src="img/ICO_Icono-marketing.png" alt=""></span>
+          <h2>Marketing y Publicidad</h2>
+          <p> El Marketing y la Publicdad para mi es el espacio en donde se permite soñar, imaginar y crear de forma estratégica.</p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <span class="icon-comunicacion"><img src="img/desarrollo-web-icono.png" alt=""></span>
+          <h2>Diseño Web</h2>
+          <p>El diseño web me permite crear nuevos espacios de encuentro y difusión de mensajes, lugar donde también se confluencia el arte, la creatividad, la comunicación y lo estratégico.</p>
         </div>
       </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2015</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+     </div> 
+    <div class="container-fluid acerca-de-mi">
+    	<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-12"><h2> Michelle Navia, Publicista.</h2></div>
+				<div class="col-md-4"><img src="img/mi-foto.png" alt=""></div>
+				<div class="col-md-8">
+					<div class="col-md-12">
+					<p>Me llamo Michelle Navia y soy Publicista en mención creativa titulada de la Universidad de Santiago de Chile.</p>
+					<p>Decidí estudiar Publicidad porque me encanta la áreas de comunicación y diseño, a demás de ser una carrera bastante equilibrada en donde se permite el pensamiento creativo lateral en pos de la consecución de objetivos y metas.</p>	
+					</div>
+					<p>Historial de actividades</p>
+					<div class="col-md-offset-2 col-md-10">
+						<ul>
+							<li>Marzo del 2011 a Junio del 2016 <strong>Estudiante</strong> en U de Santiago de Chile</li>
+							<p>Curse mis estudios en Publicidad en mención creativa en la Universidad de Santiago de Chile, logrando mi titulación el 17 de Junio del 2016</p>
+							<li>Marzo del 2012 a Diciembre del 2013 <strong>Ayudante</strong> en U de Santiago de Chile</li>
+							<p>Realicé trabajos en la Universidad como ayudante en los ramos "Teoría de la Publicidad" y "Taller de Publicidad" por cuatro semestres.</p>
+							<li>Agosto del 2014 a Junio del 2015 <strong>Especialista en Internet y Diseñadora Front End</strong> Banco de Chile</li>
+							<p>Trabajé como diseñadora web para la creación del portal interno del banco, tanto para empresas como para personas, en el departamento de innovación de internet.</p>
+							<li>Febrero del 2016 <strong>Reemplazo Analista de crédito</strong> en Banpro</li>
+						</ul>
+					</div>
+				</div>
+			</div>       		
+    	</div>
+ 	
+    </div> 
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<h2>Habilidades</h2>
+			</div>
+			<div class="col-md-6 area-diseño"></div>
+			<div class="col-md-6 area-comunicacion"></div>		
+		</div>		
+	</div>
+	<div class="container">
+		<div class="row">
+			<h2>Trabajos</h2>
+		</div>
+	      <hr>
+		<div>
+	      <footer>
+	        <p>&copy; Company 2015</p>
+	      </footer>
+	    </div> <!-- /container --> 		
+	</div>
+       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
-
+        <script src="js/classie.js"></script>        
+		<script src="js/clipboard.min.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -102,5 +151,41 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        		<script>
+		(function() {
+			[].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+				var menuItems = menu.querySelectorAll('.menu__link'),
+					setCurrent = function(ev) {
+						ev.preventDefault();
+
+						var item = ev.target.parentNode; // li
+
+						// return if already current
+						if (classie.has(item, 'menu__item--current')) {
+							return false;
+						}
+						// remove current
+						classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+						// set current
+						classie.add(item, 'menu__item--current');
+					};
+
+				[].slice.call(menuItems).forEach(function(el) {
+					el.addEventListener('click', setCurrent);
+				});
+			});
+
+			[].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
+				link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
+				new Clipboard(link);
+				link.addEventListener('click', function() {
+					classie.add(link, 'link-copy--animate');
+					setTimeout(function() {
+						classie.remove(link, 'link-copy--animate');
+					}, 300);
+				});
+			});
+		})(window);
+		</script>
     </body>
 </html>
