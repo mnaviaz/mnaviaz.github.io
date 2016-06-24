@@ -1,8 +1,8 @@
 
 
-/* ==========================================================================
+/* =================================================================
    Michelle Navia
-   ========================================================================== */
+   ================================================================ */
 
 
 @font-face {
@@ -24,6 +24,36 @@
 .menu {
 	float: right!important;	
 }
+/* Effect 11: 9 */
+.cl-effect-11 a {
+	padding: 5px 0;
+	border-top: 2px solid #D6D9D7;
+	color: #D6D9D7;
+	text-shadow: none;
+	font-size: 12px;
+} 
+
+.cl-effect-11 a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding: 5px 0;
+	max-width: 0;
+	border-bottom: 2px solid #D93D38;
+	color: #D93D38;
+	content: attr(data-hover);
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;
+	font-weight: bold;
+}
+
+.cl-effect-11 a:hover::before,
+.cl-effect-11 a:focus::before {
+	max-width: 100%;
+}
+
 .jumbotron{
 	background-image: url("../img/portada.jpg");
 	background-color: transparent;
@@ -91,6 +121,41 @@ box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
 }
 .acerca-de-mi .historial{
 	border-left: 1px solid #fff;
+}
+
+
+
+.trabajos{
+	background-color: #272726;
+}
+.trabajos h2{
+	color: #fff;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.cajas-trabajo1{
+  background: #dadada;
+  padding: 80px;
+  text-decoration: none;
+  border: none;
+  color:#fff;
+}
+.cajas-trabajo2{
+  background: #ce3350;
+  padding: 90px;
+  text-decoration: none;
+  border: none;
+  color:#fff;
+}
+
+.panel-group .panel {
+    border-radius: 0px;
+    margin-bottom: 0;
+    border-color: transparent;
+    margin-top: 1px;
+}
+.panel{
+	border:none!important;
 }
 strong{
 	color:#fff;
