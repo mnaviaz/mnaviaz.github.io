@@ -172,6 +172,18 @@ box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
     border-color: transparent;
     margin-top: 1px;
 }
+
+.cajas-trabajo4{
+  background-image: url("../img/mi-foto2.png");
+  padding: 80px;
+  text-decoration: none;
+  border: none;
+  color:#fff;
+  margin-left: 5%;
+}
+.cajas-trabajo4 span{
+	font-size: 24px;
+}
 .panel{
 	border:none!important;
 }
@@ -217,4 +229,16 @@ strong{
 	text-decoration: none;
 	border: none;
 	color:#fff;
+}
+
+.boton-imagen3{
+	background-image: url("../img/idea-3chica.jpg");
+	padding: 90px;
+	text-decoration: none;
+	border: none;
+	color:#fff;
+}
+
+h3{
+	font-family: "RainbowMansion";
 }
