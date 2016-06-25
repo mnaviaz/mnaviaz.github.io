@@ -134,20 +134,38 @@ box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
 	margin-top: 5%;
 }
 .cajas-trabajo1{
-  background: #dadada;
+  background-image: url("../img/escribir1.png");
   padding: 80px;
   text-decoration: none;
   border: none;
   color:#fff;
+  margin-left: 5%;
+}
+.cajas-trabajo1 span{
+	font-size: 24px;
 }
 .cajas-trabajo2{
-  background: #ce3350;
+  background-image: url("../img/davinci.png");
+  padding: 90px;
+  text-decoration: none;
+  border: none;
+  color:#fff;
+  margin-left: 5%;
+}
+.cajas-trabajo2 span{
+	font-size: 24px;
+}
+
+.cajas-trabajo3{
+  background-image: url("../img/fruta.jpg");
   padding: 90px;
   text-decoration: none;
   border: none;
   color:#fff;
 }
-
+.cajas-trabajo3 span{
+	font-size: 24px;
+}
 .panel-group .panel {
     border-radius: 0px;
     margin-bottom: 0;
@@ -158,5 +176,45 @@ box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
 	border:none!important;
 }
 strong{
+	color:#fff;
+}
+
+.parte-interior{
+	background-color:#FAF9F9 ;
+	width: 95%;
+	margin-left: 1.6%;
+}
+
+.parte-texto{
+	width: 90%;
+	text-align: justify;
+	margin-left: 5%;
+}
+
+.modal-dialog1{
+	text-align: center;
+	width: 43%;
+}
+
+.close , .close:hover, .close:focus{
+    color: #fff;
+    float: right;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.boton-imagen1{
+	background-image: url("../img/idea-1chica.jpg");
+	padding: 90px;
+	text-decoration: none;
+	border: none;
+	color:#fff;
+}
+
+.boton-imagen2{
+	background-image: url("../img/idea-2chica.jpg");
+	padding: 90px;
+	text-decoration: none;
+	border: none;
 	color:#fff;
 }
