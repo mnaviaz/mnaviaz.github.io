@@ -230,10 +230,13 @@ h3{
 	font-family: "RainbowMansion";
 }
 
-.contacto{
-background-color: black;
-color:#fff;
+.contacto .icon img{
+	width: 50%;
+
 }
 .contacto p{
-	color: #fff;
+
+}
+footer{
+	text-align: center;
 }
