@@ -57,7 +57,7 @@
 .jumbotron{
 	background-image: url("../img/portada.jpg");
 	background-color: transparent;
-	padding-bottom: 300px;
+	padding-bottom: 150px;
 	margin-top: -10%;
 	margin-bottom: 5%;
 -webkit-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
@@ -67,7 +67,7 @@ box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
 }
 .titulo-principal{
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 31%;
 	color: #fff!important;
 	font-family: "RainbowMansion";
 	font-size: 20px;
