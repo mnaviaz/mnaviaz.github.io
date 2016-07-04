@@ -229,7 +229,27 @@ strong{
 h3{
 	font-family: "RainbowMansion";
 }
+.texto1{
+	text-align: center;
+}
+.imagen1{
+    margin-left: 23%;
+    margin-bottom: 10%;
+}
+.texto2{
+	text-align: center;
+}
+.imagen2{
+    margin-left: 23%;
+	margin-bottom: 10%;    
+}
 
+.texto3{
+	text-align: center;
+}
+.imagen3{
+    margin-left: 9%;
+}
 .contacto .icon img{
 	width: 50%;
 
