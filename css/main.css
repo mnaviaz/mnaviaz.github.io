@@ -1,0 +1,164 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    margin-top: 64px;
+
+}
+.menu_principal{
+	background: #6ebcc4;
+	border-radius: 0px;
+	border:transparent;
+	color: #fff;
+	margin-bottom: 0px;	
+	padding: 7px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background: #99c1cd;
+	color: #fff;
+}
+.inicio{
+	background-image: url("../img/sofa.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 480px;
+	display: flex;
+	flex-direction: column;
+}
+.contenedor_titulo_principal{
+ display: flex;
+ justify-content: center;
+}
+.titulo_principal {
+    background: rgba(0, 0, 0, 0.17);
+    padding: 5%;
+    text-align: center;
+    width: 29%;
+    margin-top: 2%;
+}
+.titulo_principal h1 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 46px;
+}
+.segundo_titulo{
+display: flex;
+justify-content: center;
+}
+.segundo_titulo h2 {
+    background: #fff;
+    color: #6ebcc4;
+    width: 29%;
+    text-align: center;
+    padding: 1% 1%;
+    font-size: 22px;
+}
+.contenedor_categorias .titulo {
+    text-align: center;
+    margin-top: 24px;
+}
+.cuadricula_categorias .boton_cat{
+	background: #6ebcc4;
+	width: 130px;
+	padding: 3px;
+}
+.cuadricula_categorias a{
+	color: #fff;
+	text-decoration: none;
+}
+.cat{
+	display: flex;
+    align-items: flex-end;
+}
+.cat_1{
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: bottom;
+	background-image: url("../img/1.png"); 
+	margin-bottom: 15px;
+	transition: 1s;
+}
+.cat_2{
+	height: 414px;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: bottom;
+	background-image: url("../img/4.png"); 
+	transition: 1s;
+}
+.cat_3{
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: bottom;
+	background-image: url("../img/3.png"); 
+	margin-bottom: 14px;
+	transition: 1s;
+}
+.cat_4{
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: bottom;
+	background-image: url("../img/2.png"); 
+	transition: 1s;
+}
+.cat_5{
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: bottom;
+	background-image: url("../img/5.png");
+	transition: 1s; 
+}
+.cat:hover{
+	background-size: 120%; 	
+	transition: 1s;
+}
+.cat:hover .boton_cat{
+	background: #99c1cd;
+}
+@media (max-width: 1024px){
+	.inicio{
+		background-position: top; 
+	}
+}
+@media (max-width: 768px){
+	.inicio {
+    background-size: 168%;
+	}
+	.titulo_principal, .segundo_titulo h2  {
+	    width: 44%;
+	}
+}
+@media (max-width: 667px){
+	.inicio{
+		background-position: top;
+	}
+	.titulo_principal, .segundo_titulo h2  {
+    width: 45%;
+	}
+}
+@media (max-width: 400px){
+	.inicio {
+    background-size: 220%;
+    background-position: top;
+    height: 309px;
+	}
+	.titulo_principal, .segundo_titulo h2  {
+	    width: 64%;
+	}
+
+}
+
