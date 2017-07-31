@@ -7,6 +7,10 @@ body{
     margin-top: 64px;
 
 }
+.parallax-window {
+    min-height: 480px;
+    background: transparent;
+}
 .menu_principal{
 	background: #6ebcc4;
 	border-radius: 0px;
@@ -27,10 +31,10 @@ body{
 	color: #fff;
 }
 .inicio{
-	background-image: url("../img/sofa.jpg");
+/*	background-image: url("../img/sofa.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center;
+	background-position: center;*/
 	height: 480px;
 	display: flex;
 	flex-direction: column;
