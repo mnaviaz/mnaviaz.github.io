@@ -1,0 +1,78 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* make sidebar nav vertical */ 
+
+.menu-contenedor {
+    padding: 0px;
+    position: fixed;
+    height: 100%;
+}
+.sidebar-nav {
+    height: 100%;
+}
+.navbar.navbar-default {
+    height: 100%;
+    border-radius: 0px;
+    background: #828282;
+    border: 0px;
+}
+.navbar-brand, .navbar-nav>li>a {
+    text-shadow: none;
+}
+.contenedor-general{
+    padding: 0px;
+}
+.progress-bar {
+    background-color: #ad0973;
+}
+.barra-procesos{
+    margin-top: 10%;
+}
+@keyframes proceso{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.progress-barra{
+    animation: proceso 2s infinite;
+}
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+      padding: 0;
+      max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li a {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
