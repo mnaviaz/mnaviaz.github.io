@@ -42,3 +42,11 @@
     border: none;
     width: 50px; 
 }
+.volver{
+    color: #ddd; 
+    margin:5%; 
+}
+.volver:hover{
+    color:#fff;
+    text-decoration: none;
+}
