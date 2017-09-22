@@ -50,3 +50,84 @@
     color:#fff;
     text-decoration: none;
 }
+#login-ciudad{
+    background-image: url(../img/city.jpg);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.contenedor-login-2 .caja-color{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ad3cc2+1,7c13a3+100 */
+    background: #ad3cc2; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #ad3cc2 1%, #7c13a3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #ad3cc2 1%,#7c13a3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #ad3cc2 1%,#7c13a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad3cc2', endColorstr='#7c13a3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    box-shadow: 1px 1px 11px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    width: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 9%;
+}
+.contenedor-login-2 .caja-color .logo{
+    margin-top:5px;
+    margin-bottom: 5px;
+    width: 80px;
+
+}
+.contenedor-login-2 .caja-blanca {
+    background: #fff;
+    padding: 22% 7%;
+    width: 100%;
+    margin-top: 26%;
+    height: 430px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.55);
+    border-radius: 4px;
+    display: grid;
+}
+.contenedor-login-2 .caja-blanca h1{
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+.social-icons {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.formulario {
+    display: -webkit-inline-box;
+    margin-top: 8%;
+}
+.formulario i {
+    font-size: 25px;
+    margin-top: 30%;
+    color: #727272;
+}
+.formulario input {
+    margin-left: 5%;
+    width: 87%;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #ad3cc2;
+}
+.formulario .correo{
+    font-size: 20px;
+}
+.contenedor-login-2 .caja-blanca button {
+    margin-top: 40px;
+    background: transparent;
+    border: 0px;
+    color: #ad3cc2;
+    font-size: 17px;
+    font-weight: bold;
+}
