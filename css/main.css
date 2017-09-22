@@ -141,7 +141,7 @@
         display: none!important;
     }
     .contenedor-login-2 .caja-blanca {
-        margin-bottom: 50%;
+        margin-bottom: 10%;
     }
 }
 @media (max-width:375px){
