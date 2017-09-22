@@ -140,6 +140,9 @@
     #login-ciudad video {
         display: none!important;
     }
+    .contenedor-login-2 .caja-blanca {
+        margin-bottom: 50%;
+    }
 }
 @media (max-width:375px){
     .contenedor-login-2 .caja-blanca {
