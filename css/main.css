@@ -131,3 +131,13 @@
     font-size: 17px;
     font-weight: bold;
 }
+@media (max-width:667px){
+    #login-ciudad{
+        background-image:url(../img/city.jpg);
+        background-size:300%;
+        background-color: transparent;
+    }
+    #login-ciudad video {
+        display: none!important;
+    }
+}
