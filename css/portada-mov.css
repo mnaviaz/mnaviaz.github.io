@@ -76,6 +76,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     top: 25px;
     color: white;
     font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .details p{
     margin-top:20px;
@@ -105,6 +107,8 @@ article{
     max-width: 800px;
     margin-top: 20px;
     margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 article h1{
     font-weight: 100;
@@ -126,4 +130,10 @@ article hr{
 article p{
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+@media screen (width: 500px;){
+    .details p {
+        font-size: 18px;
+    }
 }
