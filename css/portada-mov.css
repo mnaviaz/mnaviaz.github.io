@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+.container-header{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo-tittle{
+    display: flex;
+}
+.logo-tittle img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo-tittle h4{
+    color: white;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+/* Portada */
+.container-portada{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/fondo.jpeg);
+    background-size: 150%;
+    animation: movimiento 40s linear infinite alternate;
+    position: relative;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+
+.capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+background: rgba(0,0,0,1);
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(224,54,116,1)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e03674', GradientType=1 );
+    opacity: 0.5;
+}
+.contaier-details{
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+.details{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 20px;
+}
+.details p{
+    margin-top:20px;
+}
+.details button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: transparent;
+    border-style: none;
+    border:1px solid white;
+    color: white;
+    margin-top:20px;
+    transition: 0.5s;
+}
+.details button:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+.container-secundario{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+article{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+article h1{
+    font-weight: 100;
+}
+article hr{
+    max-width: 500px;
+    height: 4px;
+    border-style: none;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(224,54,116,1)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(224,54,116,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e03674', GradientType=1 );
+    margin-top: 10px;
+}
+article p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
