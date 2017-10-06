@@ -12,7 +12,6 @@ header{
 .container-header{
     width: 100%;
     max-width: 1200px;
-    margin: auto;
 }
 .logo-tittle{
     display: flex;
