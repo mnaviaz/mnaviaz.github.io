@@ -71,6 +71,14 @@ input#exampleInputEmail1 {
     font-size: 17px;
     font-weight: bold;
 }
+@media (max-width:1024px){
+    #login-ciudad video {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+    }
+}
 @media (max-width:667px){
     #login-ciudad{
         background-image:url(../img/city.jpg);
