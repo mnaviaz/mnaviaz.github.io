@@ -1,47 +1,4 @@
-#gradient
-{
-  width: 100%;
-  height: auto;
-  padding: 0px;
-  margin: 0px;
-}
 
-.contenedor-login .form-control{
-    background-color: transparent;
-    border: transparent;
-}
-.contenedor-login p{
-    color: #e0e0e0;
-}
-.contenedor-login .form-control{
-    color:#fff;
-}
-.contenedor-login  hr{
-    border-bottom: 1px solid rgba(224, 224, 224, 0.8);
-}
-.contenedor-login .boton-enter{
-    width: 100%;
-    background: rgba(255, 255, 255, 0.64);
-    box-shadow: transparent;
-    border: none;
-    margin-bottom:20%;
-}
-.contenedor-login .logo{
-    width: 100px;
-    margin: 20% 0px;
-}
-.contenedor-login .caja-logo{
-    text-align: center;
-}
-.contenedor-login .caja-contrasena{
-    display: flex;
-}
-.contenedor-login .caja-contrasena .pregunta{
-    background: rgba(255, 255, 255, 0.32);
-    box-shadow: transparent;
-    border: none;
-    width: 50px; 
-}
 .volver{
     color: #ddd; 
     margin:1%; 
