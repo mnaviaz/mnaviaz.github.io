@@ -16,7 +16,7 @@ form{
     margin: auto;
     margin-top: 40px;
     text-align: center;
-    animation: cambio-color 10s linear infinite;
+    animation: cambio-color 10s linear infinite alternate;
     background: #7a26dd; /* Old browsers */
     background: -moz-linear-gradient(left, #7a26dd 0%, #e80808 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left, #7a26dd 0%,#e80808 100%); /* Chrome10-25,Safari5.1-6 */
