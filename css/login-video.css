@@ -82,9 +82,13 @@ input#exampleInputEmail1 {
 @media (max-width:768px){
     #login-ciudad{
         background-image:url(../img/city.jpg);
-        background-size:300%;
+        background-size:199%;
         background-color: transparent;
-}
+    }
+    #login-ciudad video {
+        display: none!important;
+    }
+    }
 @media (max-width:667px){
     #login-ciudad{
         background-image:url(../img/city.jpg);
