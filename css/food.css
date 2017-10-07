@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+header{
+    background: #181818;
+}
+header img{
+    width: 53px;
+}
+header .navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+header .logo {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contenedor-portada {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/fondo-comida.png);
+    background-size: 100%;
+    animation: movimiento 10s linear infinite alternate;
+    text-align: center;
+    padding-top: 19%;
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+.titulo-header{
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
+.bajada{
+    color: #fff;
+    margin-bottom: 0;
+}
+.bajada2{
+    width: 50%;
+    margin: auto;
+    text-align: right;
+    color: #fff;
+    font-size: 35px;
+}
+.bajada2 p{
+    font-family: 'Satisfy', cursive;
+}
+.contenedor-portada button{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.contenedor-portada button:hover{
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+.contenedor-clases{
+    background-image: url(../img/gris.png);
+    background-size:100%; 
+}
+.contenedor-clases h2{
+    padding-top: 60px;
+    font-family: 'Playfair Display', serif;
+}
+.contenedor-clases h2, .contenedor-clases h3{
+    text-align: center;
+}
+.contenedor-general-imagenes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 89px;
+}
+.contenedor-imagenes {
+    height: 500px;
+    width: 269px;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.contenedor-imagenes img{
+    width: 100%;
+}
+
+.contenedor-imagenes .content-3 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    transform: rotate(17deg);
+    margin-top: 198px;
+    margin-left: -569px;
+    transition: 0.7s;
+    box-shadow: 0px 1px 10px;
+    background: rgba(204, 141, 0, 0.9);
+}
+.contenedor-imagenes .content-4 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    transform: rotate(17deg);
+    margin-top: 228px;
+    margin-left: -569px;
+    transition: 0.5s;
+    background: rgba(204, 141, 0, 0.9);
+}
+
+.contenedor-imagenes:hover .content-3{
+    width: 1000%;
+    transition: 0.5s;
+}
+.contenedor-imagenes:hover .content-4 {
+    width: 1000%;
+    transition: 0.7s;
+}
+.content-text {
+    position: absolute;
+    top: 65%;
+    z-index: 2;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+}
+.content-text button{
+    color: #fff;
+    background: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+.contenedor-imagenes .content-text p{
+ transition: 0.5s;
+ font-size: 14px;
+}
+
+.contenedor-imagenes .content-text h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.contenedor-imagenes:hover .content-text p, .contenedor-imagenes:hover .content-text button{
+    opacity: 1;
+    transition: 0.5s;
+}
+.contenedor-imagenes:hover .content-text button:hover{
+    background: #fff;
+    color: rgb(204, 141, 0);;
+}
+.contenedor-imagenes:hover .content-text{
+    top:58%;
+    transition: 0.5s;
+}
+.contenedor-team h2{
+    padding-top: 60px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;    
+}
