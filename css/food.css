@@ -111,9 +111,7 @@ header .logo {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    background: #fff;
     z-index: 5;
-    box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.32);
 }
 .contenedor-imagen{
     width: 300px;
