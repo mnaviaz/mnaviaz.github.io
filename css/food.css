@@ -69,9 +69,31 @@ header .logo {
     color: #000;
     transition: 0.5s;
 }
-.contenedor-clases{
-    background-image: url(../img/gris.png);
-    background-size:100%; 
+.contenedor-clases {
+    background-image: url(../img/.jpg);
+    background-size: 100%;
+    padding-bottom: 59px;
+    position: relative;
+    overflow: hidden;
+}
+.contenedor-clases .s {
+    position: absolute;
+    z-index: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 58px;
+}
+.contenedor-clases .utensilios{
+    position: absolute;
+    z-index: -1;
+    top: -41px;
+    left: -80px;
+}
+.contenedor-clases .utensilios-2 {
+    position: absolute;
+    z-index: -1;
+    bottom: -208px;
+    right: -82px;
+    transform: rotate(180deg);
 }
 .contenedor-clases h2{
     padding-top: 60px;
@@ -80,97 +102,88 @@ header .logo {
 .contenedor-clases h2, .contenedor-clases h3{
     text-align: center;
 }
-.contenedor-general-imagenes {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 0px 89px;
+.contenedor-clases h3{
+    font-size: 18px;
+    margin-bottom: 20px;
 }
-.contenedor-imagenes {
-    height: 500px;
-    width: 269px;
+.contenedor-clases hr{
+    width: 50%;
     margin: auto;
-    margin-top: 60px;
+    margin-bottom: 10px;  
+}
+.contenedor-imagenes-clases{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    z-index: 5;
+}
+.contenedor-imagen{
+    width: 300px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 60px;
 }
-.contenedor-imagenes img{
+.contenedor-imagen img{
     width: 100%;
 }
-
-.contenedor-imagenes .content-3 {
-    width: 1000px;
-    height: 1000px;
+.cuadro-color{
+        width: 300px;
+        opacity: 1;
+        height: 255px;
+        background: rgba(0, 0, 0, 0.65);
+        position: absolute;
+        top: 0px;
+        left: 300px;
+        transition: 0.5s ease;
+}
+.contenedor-imagen:hover .cuadro-color{
+    top: 0px;
+    left:0px;
+    transition: 0.5s ease;
+}
+.contenedor-imagen h4{
     position: absolute;
-    top: 0;
-    transform: rotate(17deg);
-    margin-top: 198px;
-    margin-left: -569px;
-    transition: 0.7s;
-    box-shadow: 0px 1px 10px;
-    background: rgba(204, 141, 0, 0.9);
-}
-.contenedor-imagenes .content-4 {
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    transform: rotate(17deg);
-    margin-top: 228px;
-    margin-left: -569px;
-    transition: 0.5s;
-    background: rgba(204, 141, 0, 0.9);
-}
-
-.contenedor-imagenes:hover .content-3{
-    width: 1000%;
-    transition: 0.5s;
-}
-.contenedor-imagenes:hover .content-4 {
-    width: 1000%;
-    transition: 0.7s;
-}
-.content-text {
-    position: absolute;
-    top: 65%;
-    z-index: 2;
-    margin: auto;
+    font-family: 'Playfair Display', serif;
+    top: 30px;
     color: #fff;
-    text-align: center;
-    transition: 0.5s;
-}
-.content-text button{
-    color: #fff;
-    background: none;
-    padding: 10px 20px;
-    border: 1px solid #fff;
+    left: 110px;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
-.contenedor-imagenes .content-text p{
- transition: 0.5s;
- font-size: 14px;
-}
-
-.contenedor-imagenes .content-text h3{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-}
-.contenedor-imagenes:hover .content-text p, .contenedor-imagenes:hover .content-text button{
+.contenedor-imagen:hover h4{
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
-.contenedor-imagenes:hover .content-text button:hover{
+.contenedor-imagen p{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 10px;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.contenedor-imagen:hover p{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.contenedor-imagen button{
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    background: none;
+    border: 1px solid  #fff;
+    padding: 4px 30px;
+    color: #fff;
+    transition: 0.5s ease;
+}
+.contenedor-imagen button:hover{
+    color: #000;
     background: #fff;
-    color: rgb(204, 141, 0);;
+    transition: 0.5s ease;
 }
-.contenedor-imagenes:hover .content-text{
-    top:58%;
-    transition: 0.5s;
-}
-.contenedor-team h2{
-    padding-top: 60px;
-    font-family: 'Playfair Display', serif;
-    text-align: center;    
+.contenedor-imagen:hover button{
+    top: 190px;
+    transition: 0.5s ease;
 }
