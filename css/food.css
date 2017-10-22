@@ -76,12 +76,6 @@ header .logo {
     position: relative;
     overflow: hidden;
 }
-.contenedor-clases .s {
-    position: absolute;
-    z-index: 0;
-    font-family: 'Playfair Display', serif;
-    font-size: 58px;
-}
 .contenedor-clases .utensilios{
     position: absolute;
     z-index: -1;
@@ -111,13 +105,15 @@ header .logo {
     margin: auto;
     margin-bottom: 10px;  
 }
-.contenedor-imagenes-clases{
+.contenedor-imagenes-clases {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    background: #fff;
     z-index: 5;
+    box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.32);
 }
 .contenedor-imagen{
     width: 300px;
