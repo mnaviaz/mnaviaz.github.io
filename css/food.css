@@ -76,11 +76,12 @@ header .logo {
     position: relative;
     overflow: hidden;
 }
-.contenedor-clases .utensilios{
+.contenedor-clases .utensilios {
     position: absolute;
     z-index: -1;
     top: -41px;
-    left: -80px;
+    left: -28px;
+    width: 38%;
 }
 .contenedor-clases .utensilios-2 {
     position: absolute;
@@ -180,4 +181,86 @@ header .logo {
 .contenedor-imagen:hover button{
     top: 190px;
     transition: 0.5s ease;
+}
+.contenedor-team{
+    background-attachment: fixed;
+    background-image:url(../img/bar.png);
+    height: auto;
+    margin: auto;
+}
+.contenedor-team h2{
+    color: #fff;
+    padding-top: 60px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.contenedor-team  h3{
+    font-size: 18px;
+    margin-bottom: 55px;
+    text-align: center;
+    color: #fff;
+}
+.contenedor-team  hr{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;  
+    border-color: #ddd;
+}
+.cotenedor-chef{
+    width: 200px;
+    height: 263px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.cotenedor-chef .chef {
+    border-radius: 50%;
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+}
+.cotenedor-chef .circulo {
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 0;
+    animation: 40s rotate linear infinite;
+}
+@keyframes rotate {from {transform: rotate(0deg);}
+to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}}
+
+.cotenedor-chef .cinta {
+    width: 88%;
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+    left: 11px;
+}
+.cotenedor-chef p {
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    bottom: 64px;
+    z-index: 8;
+    left: 76px;
+}
+.contenedor-general-chef{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contenedor-descripcion-chef{
+    width: 500px;
+    color: #ddd;
+    padding-left:19px;
+    padding-right: 19px; 
+    padding-bottom: 20px;
+}
+.contenedor-descripcion-chef h4{
+ font-size: 30px;
 }
