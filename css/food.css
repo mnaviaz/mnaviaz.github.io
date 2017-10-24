@@ -227,7 +227,7 @@ header .logo {
     opacity: 0.5;
     position: absolute;
     z-index: 0;
-    animation: 40s rotate linear infinite;
+    animation: 60s rotate linear infinite;
 }
 @keyframes rotate {from {transform: rotate(0deg);}
 to {transform: rotate(360deg);}}
