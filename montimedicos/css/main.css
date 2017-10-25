@@ -150,6 +150,30 @@ body{
     height: auto;
     position: relative;
 }
+.fa-video-camera{
+    position: absolute;
+    top:55%;
+    left: 4%;
+    font-size: 70px;
+    color: #43bfc7;
+    opacity: 0.6;
+}
+.fa-film{
+    position: absolute;
+    top:70%;
+    right: 8%;
+    font-size: 100px;
+    color: #43bfc7;
+    opacity: 0.3;
+}
+.prensa{
+    position: absolute;
+    top:55%;
+    right: 6%;
+    font-size: 90px;
+    color: #43bfc7;
+    opacity: 0.6; 
+}
 .contenedor-gradient1{
 background: rgba(224,224,224,1);
 background: -moz-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 100%);
