@@ -186,13 +186,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
 
 .contenedor-titulo {
     display: flex;
-    width: 64%;
+    width: 77%;
     margin: auto;
     color: #989898;
-    margin-top:87px;
+    margin-top: 87px;
 }
 .contenedor-titulo hr {
-    width: 270px;
+    width: 36%;
     border-top: 2px solid #989898;
     margin-top: 33px;
 }
@@ -291,14 +291,9 @@ transition: 0.5s ease;
 }
 .contenedor-vermas{
     display: flex;
-    width: 64%;
+    width: 71%;
     margin: auto;
     margin-top: 30px;
-}
-.contenedor-vermas hr{
-    width: 270px;
-    border-top: 1px solid #43bfc7;
-    margin-top: 33px;
 }
 .contenedor-vermas button{
     border: 1px solid #43bfc7;
@@ -307,6 +302,7 @@ transition: 0.5s ease;
     border-radius: 30px; 
     padding: 10px 50px;
     transition: 0.5s ease;
+    width: 100%;
 }
 .contenedor-vermas button:hover{
     background: #43bfc7;
