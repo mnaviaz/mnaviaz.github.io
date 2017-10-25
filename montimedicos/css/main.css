@@ -358,11 +358,7 @@ transition: 0.5s ease;
     z-index: -1;
     overflow: hidden;
 }
-.contenedor-clientes h2{
-    text-align: center;
-    color: #fff;
-    padding-top: 20px;
-}
+
 .contenedor-clientes .contenedor-logos {
     display: flex;
     flex-wrap: wrap;
@@ -386,6 +382,26 @@ transition: 0.5s ease;
     }
     to{
     margin-top:-400px;
+    }
+}
+@media only screen and (max-width: 1120px){
+    @keyframes movimiento{
+        from{
+         margin-top:0px;
+        }
+        to{
+        margin-top:-550px;
+        }
+    }
+}
+@media only screen and (max-width: 769px){
+    @keyframes movimiento{
+        from{
+         margin-top:0px;
+        }
+        to{
+        margin-top:-1200px;
+        }
     }
 }
 .contenedor-clientes .azul-clientes{
