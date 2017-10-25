@@ -151,15 +151,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d8d8', end
     position: relative;
 }
 .contenedor-gradient1{
-background: rgba(232,232,232,1);
-background: -moz-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,232,232,1)), color-stop(33%, rgba(245,245,245,1)), color-stop(100%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-background: -o-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-background: -ms-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-background: linear-gradient(to bottom, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff', GradientType=0 );
-    height: 589px;
+    background: rgba(224,224,224,1);
+    background: -moz-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,224,224,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#ffffff', GradientType=0 );
+    height: 889px;
     transform: rotate(5deg);
     position: absolute;
     top: 80px;
@@ -168,15 +168,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', end
     z-index: -40;
 }
 .contenedor-gradient2{
-background: rgba(232,232,232,1);
-background: -moz-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,232,232,1)), color-stop(33%, rgba(245,245,245,1)), color-stop(100%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-background: -o-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-background: -ms-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-background: linear-gradient(to bottom, rgba(232,232,232,1) 0%, rgba(245,245,245,1) 33%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff', GradientType=0 );
-    height: 589px;
+    background: rgba(224,224,224,1);
+    background: -moz-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,224,224,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#ffffff', GradientType=0 );
+    height: 889px;
     transform: rotate(-5deg);
     margin-top: 63px;
     width: 120%;
@@ -239,7 +239,7 @@ transition: 0.5s ease;
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 100px;
+    top: 80px;
     transition: 0.5s ease;
     opacity: 0;
 }
@@ -288,4 +288,30 @@ transition: 0.5s ease;
 .contenedor-imagenes a:hover .gradiente-link{
     opacity: 0.7;
     transition: 0.5s;
+}
+.contenedor-vermas{
+    display: flex;
+    width: 64%;
+    margin: auto;
+    margin-top: 30px;
+}
+.contenedor-vermas hr{
+    width: 270px;
+    border-top: 1px solid #43bfc7;
+    margin-top: 33px;
+}
+.contenedor-vermas button{
+    border: 1px solid #43bfc7;
+    background: none;
+    color:#43bfc7;
+    border-radius: 30px; 
+    padding: 10px 50px;
+    transition: 0.5s ease;
+}
+.contenedor-vermas button:hover{
+    background: #43bfc7;
+    color:#fff;
+    border-radius: 30px; 
+    padding: 10px 50px;
+    transition: 0.5s ease;
 }
