@@ -259,11 +259,12 @@ body, html {
   opacity: 0;
 }
 .slider-container .slide-content .txt-wrapper h2 {
-  margin: 0;
-  font-size: 4.3rem;
-  margin-bottom: 4rem;
-  line-height: 1;
-  font-weight: 600;
+    margin: 0;
+    font-size: 4.3rem;
+    margin-bottom: 4rem;
+    line-height: 1;
+    font-weight: 600;
+    color: #9f4092;
 }
 .slider-container .slide-content .txt-wrapper h2 span {
   display: block;
