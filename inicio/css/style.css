@@ -25,7 +25,7 @@ body, html {
 @media (min-width: 1200px) {
   body, html {
     font-size: 10px;
-    padding: 2rem 3rem;
+    padding: 0;
   }
 }
 
@@ -167,13 +167,13 @@ body, html {
 }
 
 .slider-content {
-  position: relative;
-  max-width: 112rem;
-  min-width: 480px;
-  background: #fff;
-  margin: 0 auto;
-  overflow: hidden;
-  box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
+    position: relative;
+    max-width: 100%;
+    min-width: 480px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
 }
 .slider-content .slide {
   position: absolute;
