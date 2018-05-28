@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.portada{
+    background-image:url(../img/11.jpg);
+    background-size:100%;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    animation: movimiento 30s linear infinite alternate;
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom right;
+    }
+    to{
+        background-position: top left;
+    }
+}
+
+
+.gradient_portada {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e3391+0,8e31af+100 */
+background: rgb(30,51,145); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(30,51,145,1) 0%, rgba(142,49,175,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(30,51,145,1) 0%,rgba(142,49,175,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(30,51,145,1) 0%,rgba(142,49,175,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e3391', endColorstr='#8e31af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.7;
+    height: 600px;
+    left: 0px;
+}
+.texto_portada{
+    color: #fff;
+    width: 40%;
+    margin:auto;
+    z-index: 4;
+}
+.texto_portada button {
+    width: 80%;
+    height: 25px;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 3%;
+        transition: 0.3s ease;
+}
+.texto_portada button:hover{
+    background-color: #fff;
+    transition: 0.3s ease;
+    color: #454fc2;
+}
+.imagen_portada{
+    width: 40%;
+    margin: auto;
+    z-index: 4;
+}
+
+.imagen_portada img {
+    width: 100%;
+    box-shadow: 0px 0px 20px 1px #0000009e;
+}
+
+
+
+
+
