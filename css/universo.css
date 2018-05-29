@@ -88,13 +88,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11215e', end
 }
 
 .grilla {
-    background: #ffffff;
-    background: -moz-linear-gradient(-45deg, #ffffff 53%, #f9bdf8 100%);
-    background: -webkit-linear-gradient(-45deg, #ffffff 53%,#f9bdf8 100%);
-    background: linear-gradient(135deg, #ffffff 53%,#f9bdf8 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9bdf8',GradientType=1 );
     text-align: center;
     padding-top: 5%;
+    position: relative;
+    overflow: hidden;
 }
 .grilla h1{
  font-family: 'Rajdhani', sans-serif;
@@ -149,6 +146,7 @@ background: linear-gradient(yellow,red);
     margin-top: 14%;
     text-align: left;
     position: relative;
+    font-family: "vendetta";
 }
 .tarjeta:hover p {
     margin-top: 2%;
@@ -170,4 +168,20 @@ background: linear-gradient(yellow,red);
     margin-top: 20%;
     opacity: 0;
     transition: 0.7s ease;
+     font-family: 'Rajdhani', sans-serif;
+}
+.circulo {
+    background: rgba(0,0,0,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,10,21,1) 11%, rgba(0,35,73,0.56) 38%, rgba(0,52,107,0.17) 56%, rgba(0,52,107,0) 64%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,0,0,1)), color-stop(11%, rgba(0,10,21,1)), color-stop(38%, rgba(0,35,73,0.56)), color-stop(56%, rgba(0,52,107,0.17)), color-stop(64%, rgba(0,52,107,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,10,21,1) 11%, rgba(0,35,73,0.56) 38%, rgba(0,52,107,0.17) 56%, rgba(0,52,107,0) 64%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,10,21,1) 11%, rgba(0,35,73,0.56) 38%, rgba(0,52,107,0.17) 56%, rgba(0,52,107,0) 64%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,10,21,1) 11%, rgba(0,35,73,0.56) 38%, rgba(0,52,107,0.17) 56%, rgba(0,52,107,0) 64%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,10,21,1) 23%, rgba(0, 35, 73, 0.88) 42%, rgba(0, 52, 107, 0.63) 55%, rgba(0, 52, 107, 0) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00346b', GradientType=1 );
+    width: 1300px;
+    height: 1300px;
+    position: absolute;
+    right: -571px;
+    bottom: -630px;
 }
