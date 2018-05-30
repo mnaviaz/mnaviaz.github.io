@@ -252,6 +252,7 @@ to {-webkit-transform: rotate(360deg);}}
     .titulo_portada {
     font-size: 2em;
     line-height: 4px;
+    margin-bottom: 9%;
 }
     .imagen_portada{
         width: 100%;
