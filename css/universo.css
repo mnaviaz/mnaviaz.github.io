@@ -186,10 +186,11 @@ background: linear-gradient(yellow,red);
     right: -571px;
     bottom: -630px;
 }
-.astronauta{
+.astronauta {
     animation: astronauta 5s linear infinite alternate;
     position: absolute;
     width: 26%;
+    z-index: 4;
 }
 @keyframes astronauta{
     from{
@@ -232,4 +233,44 @@ to {-webkit-transform: rotate(360deg);}}
 .estrellitas {
     position: absolute;
     bottom: 0;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .portada {
+        background-size: 180%;
+    }
+    .texto_portada {
+        width: 100%;
+        text-align: center;
+    }
+    .imagen_portada{
+        width: 100%;
+    }
+    .grilla {
+    height: 555px;
+    }
+    .astronauta {
+        width: 39%;
+    }
+    .circulo{
+        width: 1000px;
+        height: 1000px;
+        right: -493px;
+        bottom: -495px;
+    }
+    img.lunas {
+    width: 55%;
+    right: -46px;
+}
+    img.lunas-chica {
+        width: 55%;
+        right: -46px;
+    }
+    .estrellitas {
+    width: 138%;
+    left: 0;
+}
 }
