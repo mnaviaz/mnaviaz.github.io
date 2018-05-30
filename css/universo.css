@@ -238,7 +238,7 @@ to {-webkit-transform: rotate(360deg);}}
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 375px) {
     .portada {
         background-size: 180%;
     }
