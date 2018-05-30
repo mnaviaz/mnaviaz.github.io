@@ -259,8 +259,9 @@ to {-webkit-transform: rotate(360deg);}}
     height: 50px;
     border: 6px solid #580d5342;
     border-radius: 50%;
+    margin-left: -16px;
+    margin-top: 148px;
 }
-
 
 @media only screen and (max-width: 375px) {
     .portada, .gradient_portada{
