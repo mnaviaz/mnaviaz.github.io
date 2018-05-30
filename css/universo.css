@@ -239,6 +239,9 @@ to {-webkit-transform: rotate(360deg);}}
 
 
 @media only screen and (min-width: 375px) {
+    .portada, .gradient_portada{
+    height: 650px;
+    }
     .portada {
         background-size: 180%;
     }
@@ -246,6 +249,10 @@ to {-webkit-transform: rotate(360deg);}}
         width: 100%;
         text-align: center;
     }
+    .titulo_portada {
+    font-size: 2em;
+    line-height: 4px;
+}
     .imagen_portada{
         width: 100%;
     }
