@@ -100,7 +100,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11215e', end
 .color_degrade_texto{
 background: linear-gradient(yellow,red);
   -webkit-background-clip: text;
-  color: transparent;  
 }
 .grilla h3 {
     font-family: "vendetta";
