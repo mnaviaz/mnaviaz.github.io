@@ -92,6 +92,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11215e', end
     padding-top: 5%;
     position: relative;
     overflow: hidden;
+    height: 667px;
 }
 .grilla h1{
  font-family: 'Rajdhani', sans-serif;
@@ -184,4 +185,51 @@ background: linear-gradient(yellow,red);
     position: absolute;
     right: -571px;
     bottom: -630px;
+}
+.astronauta{
+    animation: astronauta 5s linear infinite alternate;
+    position: absolute;
+    width: 26%;
+}
+@keyframes astronauta{
+    from{
+        top:50px;
+    }
+    to{
+        top:90px;
+    }
+}
+img.lunas {
+    width: 30%;
+    position: absolute;
+    z-index: 0;
+    bottom: 0px;
+    right: -46px;
+        animation: 190s rotate linear infinite;
+}
+@keyframes rotate {from {transform: rotate(0deg);}
+to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}}
+
+.estrellitas {
+    position: absolute;
+    bottom: 0;
+}
+img.lunas-chica {
+    width: 30%;
+    position: absolute;
+    z-index: 0;
+    bottom: 0px;
+    right: -46px;
+        animation: 90s giro linear infinite;
+}
+@keyframes giro {from {transform: rotate(0deg);}
+to {transform: rotate(360deg);}}
+@-webkit-keyframes giro {from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}}
+
+.estrellitas {
+    position: absolute;
+    bottom: 0;
 }
