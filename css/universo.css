@@ -235,7 +235,31 @@ to {-webkit-transform: rotate(360deg);}}
     bottom: 0;
 }
 
-
+.borde{
+    border: 1px dashed #000;
+    width: 400px;
+    height: 400px;
+}
+.borde {
+    border: 4px dashed #6f1f6b2b;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: -53px;
+    left: -135px;
+            animation: 90s giro-borde linear infinite;
+}
+@keyframes giro-borde {from {transform: rotate(0deg);}
+to {transform: rotate(360deg);}}
+@-webkit-keyframes giro-borde {from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}}
+.pelota {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #580d5342;
+    border-radius: 50%;
+}
 
 
 @media only screen and (max-width: 375px) {
